@@ -2,10 +2,6 @@
 
 ## Installation Process
 
-### Step 1 - Wordpress Instalation
-
-If you have some technical background, you can skip the detailed steps in this ReadMe. Here are the simplified steps on how to install WordPress on a local computer:
-
 1. Install a local server (Mac: [MAMP] (http://www.mamp.info), PC:XAMPP or WAMP).
 
 2. Create a new database called club-soda
