@@ -1,0 +1,259 @@
+
+
+
+
+
+
+/* =Postscript Navigation
+----------------------------------------------- */
+
+.postscript-navigation-menu {
+	clear: both;
+	margin-bottom: 1.625em;
+}
+
+
+
+
+/* =Post Meta Data
+----------------------------------------------- */
+.entry-meta .sep,
+.byline,
+.meta-pubdate,
+.meta-entry-date,
+.meta-tags-n-cats,
+.meta-permalink,
+.meta-comments,
+.comments-link,
+.edit-link {
+	display: inline;
+}
+
+/* =Author Profile
+----------------------------------------------- */
+
+.os-author-profile {
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+	background-color: #EDEDED;
+}
+
+.os-author-profile-gravatar {}
+
+.os-author-profile-gravatar img {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+.os-author-profile-bio {}
+
+.os-author-profile-bio-name {
+	font-weight: bold;
+}
+
+span.os-author-profile-bio-nickname {
+	font-style: italic;
+	font-weight: normal;
+}
+
+.os-author-profile-bio-description {}
+
+.os-author-profile-links {
+	margin-top: 0.25em;
+}
+
+.os-author-profile-links ul {
+	list-style: none;
+	margin: 0;
+}
+
+.os-author-profile-links ul li {}
+
+.os-author-profile-links ul li a {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Enter category names in lowercase but style with capitals in widget */
+
+.widget_categories {
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 870px) {
+
+	.os-record-fields div.clubsoda-event-price-amount,
+	.os-record-fields div.clubsoda-event-price-button {
+		display: inline-block;
+		float: left;
+		clear: none;
+		width: 50%;
+	}
+
+}
+
+
+
+.upw-posts .os-record-row {
+	margin-left: 0;
+}
+
+.os-record-fields div {
+	clear: both;
+	width: 100%;
+}
+
+.os-record-notes {
+	margin-bottom: .5em;
+	margin-left: 1em;
+}
+
+#canvas .os-record-notes p {
+	font-size: 1em;
+	line-height: 1.625em;
+	margin-bottom: .5em;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 870px) {
+
+	.entry-cover-image {
+
+
+
+	}
+
+}
+
+
+
+/* =Club Soda Front Page
+----------------------------------------------- */
+
+
+
+
+.front-content-bottom .widget {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 1.625em;
+	clear: both;
+	text-align: center;
+}
+
+.front-content-bottom .widget-title {
+	font-size: 1.921em;
+	line-height: 1.2695em;
+}
+
+.front-content-bottom .widget img {
+	width: 100%;
+	margin: auto;
+	clear: both;
+}
+
+
+
+nav#home-navigation {
+	margin-top: 1.625em;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+ul#front-content-bottom-menu.navigation-menu-list li{
+	float: none;
+}
+ul#front-content-bottom-menu.navigation-menu-list li a {
+	display:inline;
+}
+#front-content-bottom-menu {
+	text-align:center;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	width: 95%;
+}
+#front-content-bottom-menu li {
+	display:inline;
+}
+#front-content-bottom-menu a {
+	text-decoration:none;
+	padding:0 10px; /* variable width */
+}
+
+div.home-navigation-menu {
+	font-size: 1.188em;
+	line-height: 1.36842105em;
+}
+
+
+
+
+
+
+
+
+
+
+/*--------------*/
+
+form.cmb-form {
+	border-style: none;
+	width: inherit;
+}
+
+form.cmb-form ul {
+	list-style: none;
+}
+
+.cmb-form label {
+	margin-bottom: 0.5em;
+}
+
+.cmb2-list input {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.cmb2-list label {
+	display: inline-block;
+}
+
+.cmb2-list input[type="checkbox"],
+.cmb2-list input[type="radio"] {
+	vertical-align: middle;
+}
+
+.cmb-type-text-date {
+	margin-bottom: 0.5em;
+}

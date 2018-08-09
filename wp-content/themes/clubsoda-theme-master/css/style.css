@@ -1,0 +1,635 @@
+@charset "UTF-8";
+/************************************************
+
+Stylesheet: Main Stylesheet
+
+*************************************************/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700|Open+Sans|Open+Sans+Condensed:300);
+
+@import url("oystershell.css");
+@import url("dry.css");
+/* @import url("clubsoda.css"); */
+
+/* @import url("css/navigation.css");
+@import url("css/compatibility.css"); */
+@import url("woocommerce.css");
+
+
+/* =Club Soda Banner
+----------------------------------------------- */
+
+#masthead-col-mid p img {
+	max-width: 100%;
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.6666em;
+	margin-bottom: 0.6666em;
+}
+
+.clubsoda-tagline {
+  font-family: 'Open Sans Condensed', sans-serif;
+  height: 1.921em;
+	margin-top: 1.625em;
+	margin-bottom: 0.8125em;
+	color: #E9E8E7;
+	float: right;
+	margin-right: 20%;
+	font-size: 1.188em;
+	line-height: 1.36842105em;
+}
+
+/* =Club Soda Navigation
+----------------------------------------------- */
+
+.clubsoda-nav ul ul li { /* this targets all submenu items */
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #86a2a5;
+}
+
+.clubsoda-nav .submenu>li>a {
+    padding: 0.25rem 1rem;
+}
+
+.clubsoda-nav .is-dropdown-submenu {
+	border: 0;
+}
+
+.clubsoda-nav .dropdown.menu > li.is-dropdown-submenu-parent > a::after,
+.clubsoda-nav .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after,
+.clubsoda-nav .dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a::after {
+	border-color: #86a2a5 transparent transparent;
+}
+.clubsoda-nav .dropdown.menu.vertical > li.opens-left > a::after,
+.clubsoda-nav .dropdown.menu.medium-vertical > li.opens-left > a::after,
+.clubsoda-nav .dropdown.menu.large-vertical > li.opens-left > a::after,
+.clubsoda-nav .is-dropdown-submenu .is-dropdown-submenu-parent.opens-left > a::after {
+	border-color: transparent #86a2a5 transparent transparent;
+}
+.clubsoda-nav .dropdown.menu.vertical > li.opens-right > a::after,
+.clubsoda-nav .dropdown.menu.medium-vertical > li.opens-right > a::after,
+.clubsoda-nav .dropdown.menu.large-vertical > li.opens-right > a::after,
+.clubsoda-nav .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
+	border-color: transparent transparent transparent #86a2a5;
+}
+
+/* =Search form
+----------------------------------------------- */
+
+#clubsoda-search {
+	display: block;
+	margin: 0.25rem auto;
+	float: right;
+	margin-right: 11.39657%;
+
+	/*margin-left: 7.14285%;*/
+}
+
+input#s {
+	background: url(../img/search.png) no-repeat 2px 4px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	font-size: 0.734em;em;
+	height: 2.5em;
+	line-height: 1.7em;
+	padding: 4px 10px 4px 28px;
+	background-color: #E9E8E7;
+	border-width: 2px;
+	border-color: #456064;
+	margin-bottom: 0;
+}
+input#searchsubmit {
+	display: none;
+}
+
+#clubsoda-search #searchform {
+	right: 7.6%;
+	text-align: right;
+	margin-right: 20px;
+}
+#searchform {
+	border: 0;
+	padding: 0;
+	width: auto;
+}
+#clubsoda-search #searchform div {
+	margin: 0;
+}
+#clubsoda-search #s {
+	float: right;
+	-webkit-transition-duration: 400ms;
+	-webkit-transition-property: width, background;
+	-webkit-transition-timing-function: ease;
+	-moz-transition-duration: 400ms;
+	-moz-transition-property: width, background;
+	-moz-transition-timing-function: ease;
+	-o-transition-duration: 400ms;
+	-o-transition-property: width, background;
+	-o-transition-timing-function: ease;
+	width: 126px;
+	min-width: 126px;
+}
+#clubsoda-search #searchsubmit {
+	display: none;
+}
+
+/* =Entry header
+----------------------------------------------- */
+.entry-header .meta-pubdate {
+    float: right;
+}
+
+.clubsoda-post-icon {
+	margin-left: 1em;
+}
+
+/* =Featured image
+----------------------------------------------- */
+
+.entry-featured-image,
+.page-featured-image,
+.entry-cover-image,
+.entry-banner-image {
+	width: 100%;
+	clear: both;
+	margin-bottom: 1rem;
+}
+
+.entry-featured-image img,
+.page-featured-image img,
+.entry-cover-image img,
+.entry-banner-image img {
+	max-width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+}
+
+div.entry-profile-image {
+	background: #FBFBFB;
+	padding: 5px;
+	width: 150px;
+	height: 150px;
+	-moz-border-radius: 999px;
+	-webkit-border-radius: 999px;
+	border-radius: 999px;
+}
+
+div.entry-profile-image-overlay {
+	float: left;
+	left: 30px;
+	position: relative;
+	top: -70px;
+	margin-bottom: -60px;
+}
+
+div.entry-profile-image-right {
+	float: right;
+}
+
+.entry-profile-image img {
+	-moz-border-radius: 999px;
+	-webkit-border-radius: 999px;
+	border-radius: 999px;
+}
+
+/* =OS Record Fields
+----------------------------------------------- */
+.os-record {
+	margin-bottom: 1rem;
+}
+
+.os-record-row {
+	margin-bottom: .5rem;
+	margin-left: 1rem;
+}
+
+.clubsoda-buy-button,
+a.clubsoda-buy-button {
+	font-family: 'Roboto Slab', serif;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	overflow: hidden;
+	position: relative;
+	transition: 0.25s;
+	box-sizing: border-box;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	opacity: 1;
+	width: auto;
+	display: inline-block;
+
+	font-size: 0.734em;
+	line-height: 2.214em;
+	padding: 0.25em .5em;
+
+	color: #456064;
+	background-color: #86A2A5;
+	box-shadow: 0px 2px #456064;
+}
+
+a.clubsoda-buy-button:hover {
+	color: #E30B5D;
+}
+
+
+/* =Post footer
+----------------------------------------------- */
+#clubsoda-post-footer {
+	border-top: 1px solid #86A2A5;
+	padding-top: 1.625em;
+}
+
+
+
+/* =User badge
+----------------------------------------------- */
+.clubsoda-user-badge {
+	float: left;
+	border: 1px solid #86A2A5;
+	width: 100%;
+	padding: 1em;
+	margin-bottom: 1.625em;
+}
+
+.clubsoda-user-badge h3 {
+  font-size: 1.1875rem;
+}
+
+.clubsoda-user-badge-text {
+	float: left;
+}
+
+#canvas .clubsoda-user-badge-text p {
+	margin-bottom: 0;
+}
+
+/* =User avatar
+----------------------------------------------- */
+.clubsoda-user-badge-avatar {
+	float: right;
+	width: 95px;
+	height: 95px;
+}
+
+.commentlist .clubsoda-user-avatar {
+	max-width: 80px;
+	max-height: 80px;
+}
+
+.clubsoda-user-badge-avatar,
+.clubsoda-user-avatar {
+    background: #86A2A5;
+    padding: 5px;
+	-moz-border-radius: 999px;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+}
+
+.bypostauthor .clubsoda-user-avatar {
+	  background: #456064;
+}
+
+.clubsoda-user-avatar img,
+.clubsoda-user-badge-avatar img {
+	-moz-border-radius: 999px;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+}
+
+/* =Post meta
+----------------------------------------------- */
+.clubsoda-post-meta {
+	margin-bottom: 1.625em;
+}
+
+#canvas .clubsoda-post-meta p {
+	margin-bottom: 0;
+	font-size: 0.734em;
+	line-height: 2.214em;
+}
+
+/* =Postscript
+----------------------------------------------- */
+
+#mobile-search-navigation #searchform {
+	margin-top: 0.5em;
+}
+
+
+/* =Club Soda Buttons
+----------------------------------------------- */
+
+.clubsoda-button,
+a.clubsoda-button,
+.clubsoda-button-skinny,
+a.clubsoda-button-skinny {
+	font-family: 'Roboto Slab', serif;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	overflow: hidden;
+	position: relative;
+	transition: 0.25s;
+	box-sizing: border-box;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	opacity: 1;
+	width: auto;
+	display: inline-block;
+	width: 235px;
+}
+
+.clubsoda-button,
+a.clubsoda-button {
+	font-size: 1.618em;
+	line-height: 1.005em;
+	padding: 1em 1.5em;
+}
+
+.clubsoda-button-skinny,
+a.clubsoda-button-skinny {
+	font-size: 1.188em;
+	line-height: 1.36842105em;
+	padding: 0.75em 1em;
+}
+
+.clubsoda-button,
+a.clubsoda-button,
+.clubsoda-button-skinny,
+a.clubsoda-button-skinny {
+	color: #fab939;
+	background-color: #86A2A5;
+	box-shadow: 0px 8px #becdcf;
+}
+
+a.clubsoda-button:hover,
+a.clubsoda-button-skinny:hover {
+	color: #456064;
+}
+
+.clubsoda-button-sombre,
+a.clubsoda-button-sombre {
+	color: #456064;
+	background-color: #86A2A5;
+	box-shadow: 0px 8px #456064;
+}
+
+a.clubsoda-button-sombre:hover {
+	color: #E30B5D;
+}
+
+.clubsoda-button-gold,
+a.clubsoda-button-gold {
+	color: #e30b5d;
+	background-color: #fab939;
+	box-shadow: 0px 8px #B07503;
+}
+
+a.clubsoda-button-gold:hover {
+	color: #456064;
+}
+
+.clubsoda-button-raspberry,
+a.clubsoda-button-raspberry {
+	color: #fab939;
+	background-color: #e30b5d;
+	box-shadow: 0px 8px #99003B;
+}
+
+a.clubsoda-button-raspberry:hover {
+	color: #86A2A5;
+}
+
+/* =Front Page
+----------------------------------------------- */
+/* Col-3a */
+
+.page-template-page_front #col-2 {
+	margin-bottom: 0;
+}
+.front-content-banner {
+	height: 350px;
+}
+
+#front-content-a {
+	position: relative;
+}
+
+#front-content-a-col1 {
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	padding: 0.75em 1em;
+	background: rgba(69, 96, 100, .7);
+	position: absolute;
+	bottom: -325px;
+}
+
+#front-content-a-col1 p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.921em;
+	line-height: 1.2695em;
+  color: #FBFBFB;
+ 	text-transform: uppercase;
+ 	margin-bottom: 0;
+}
+
+/* Col-3b */
+.front-content-button {
+	background-color: #FBFBFB;
+}
+
+#front-content-b-col1 {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#front-content-b-col1 p {
+	text-align: center;
+}
+
+/* Col-3c */
+
+.front-content-fullwidth-middle {
+	background-color: #FBFBFB;
+}
+
+.front-content-fullwidth-middle h1,
+.front-content-fullwidth-middle h2,
+.front-content-fullwidth-middle h3 {
+	color: #fab939;
+}
+
+.front-content-fullwidth-middle h1 {
+ font-size: 1.25rem;
+}
+.front-content-fullwidth-middle h2 {
+	font-size: 1.1875rem;
+}
+.front-content-fullwidth-middle h3 {
+	font-size: 1.125rem;
+}
+
+/* Col-3d */
+
+.front-content-widgets-middle {
+	background-color: #FBFBFB;
+}
+
+.front-content-widgets-middle h1,
+.front-content-widgets-middle h2,
+.front-content-widgets-middle h3 {
+	color: #fab939;
+}
+
+.front-content-widgets-middle .widget-title {
+	display: none;
+}
+.front-content-widgets-middle h1 {
+ font-size: 1.25rem;
+}
+.front-content-widgets-middle h2 {
+	font-size: 1.1875rem;
+}
+.front-content-widgets-middle h3 {
+	font-size: 1.125rem;
+}
+
+
+/* Col-3e */
+
+.front-content-widgets-bottom,
+.front-content-widgets-bottom .widget {
+	background-color: #86A2A5;
+	color: #FBFBFB;
+}
+
+/* Col-3f */
+
+.front-content-fullwidth-bottom,
+.front-content-fullwidth-bottom .widget {
+	background-color: #86A2A5;
+	color: #FBFBFB;
+	text-align: center;
+}
+
+/* Col-3f */
+
+.front-content-navigation {
+	background-color: #86A2A5;
+	color: #FBFBFB;
+}
+
+#front-content-bottom-menu {
+    text-align: center;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 95%;
+	  margin-top: 1.25rem;
+	  margin-bottom: 1.25rem;
+}
+
+ul#front-content-bottom-menu.navigation-menu-list li {
+    float: none;
+}
+#front-content-bottom-menu li {
+    display: inline;
+}
+ul#front-content-bottom-menu.navigation-menu-list li a {
+    display: inline;
+}
+#front-content-bottom-menu a {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+
+#front-content-bottom-menu li {
+	font-size:  1.125rem;
+}
+
+
+.page-template-page_front #postscript {
+	margin-top: 0;
+}
+
+.page-template-page_front #col-5 {
+	display: none;
+}
+
+.front-page-content {
+	padding-top: 1.625em;
+}
+.front-page-title {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =Front Page
+----------------------------------------------- */
+#clubsoda-social-media-home {
+	width: 490px;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	clear: both;
+}
+
+.clubsoda-social-media-roundel a,
+.clubsoda-social-media-roundel a:visited {
+	color: #FBFBFB;
+}
+
+.clubsoda-social-media-roundel a:hover,
+.clubsoda-social-media-roundel a:focus,
+.clubsoda-social-media-roundel a:active {
+	color: #fab939;
+}
+
+div.clubsoda-social-media-roundel {
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 1em;
+	background-color: #456064;
+	-moz-border-radius: 999px;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+    vertical-align: middle;
+
+}
+
+@media screen and (max-width: 870px) {
+	#clubsoda-social-media-home {
+		width: 280px;
+		height: 120px;
+	}
+	div.clubsoda-social-media-roundel {
+		margin-top: 5px;
+	}
+}

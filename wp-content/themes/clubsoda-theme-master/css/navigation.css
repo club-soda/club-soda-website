@@ -1,0 +1,264 @@
+/* NAVIGATION STYLESHEET FOR CHILD THEME
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1 - Navigation Menus
+2 - Widget Menus
+3 - Mobile Navigation
+4 - Back to Top Link
+
+----------------------------------------------------------------
+*/
+
+/*--------------------------------------------------------------
+1 - Navigation Menus
+----------------------------------------------------------------
+*/
+
+/* Main navigation */
+
+div.main-navigation-menu {
+	display: block;
+}
+ul.main-navigation-menu-list {
+	border-left: 1px;
+	border-style: solid;	
+}
+ul.main-navigation-menu-list li {
+	border-right: 1px;
+	border-style: solid;
+}
+ul.main-navigation-menu-list li a {
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+ul.main-navigation-menu-list li.menu-item:hover a {
+
+} 
+
+/* Postscript navigation */
+
+div.postscript-navigation-menu {
+	display: block;
+	margin-left: 4%;
+}
+ul.postscript-navigation-menu-list {
+
+}
+ul.postscript-navigation-menu-list li {
+
+}
+ul.postscript-navigation-menu-list li a {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+ul.postscript-navigation-menu-list li.menu-item:hover a {
+
+} 
+
+/* Home navigation */
+
+div.home-navigation-menu {
+
+}
+ul.home-navigation-menu-list {
+
+}
+ul.home-navigation-menu-list li {
+
+}
+ul.home-navigation-menu-list li a {
+
+}
+ul.postscript-navigation-menu-list li.menu-item:hover a {
+
+}
+
+
+
+/*--------------------------------------------------------------
+2 - Widget Menus
+----------------------------------------------------------------
+*/
+
+.widget_nav_menu {
+
+}
+
+.widget_nav_menu .widget-title {
+
+}
+
+.menu-MENU-NAME-container {
+
+} /* Use to control specific menus */
+
+/*---Level 1---*/
+.widget_nav_menu ul.menu {
+	margin: 0;
+	list-style: none;
+}
+.widget_nav_menu li.menu-item {
+	padding-left: 15px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-color: #FBFBFB;	
+}
+
+/*---Level 2---*/
+.widget_nav_menu ul.sub-menu {
+	margin: 0;
+	list-style: none;
+}
+.widget_nav_menu ul.sub-menu li.menu-item {
+	border-left: none;
+	padding-left: 15px;
+}
+
+/*---Level 3---*/
+.widget_nav_menu ul.sub-menu ul.sub-menu {
+	margin: 0;
+	list-style: none;
+}
+.widget_nav_menu ul.sub-menu ul.sub-menu li.menu-item {
+	padding-left: 15px;
+}
+
+/*---Menu item for current page---*/
+.widget_nav_menu li a {
+
+}
+.widget_nav_menu li.current-menu-item,
+.widget_nav_menu li.current-menu-parent,
+.widget_nav_menu li.current-menu-ancestor {
+	border-color: #404040;
+}
+.widget_nav_menu li.current-menu-item a {
+	background-color: #EDEDED;
+}
+.widget_nav_menu li.current-menu-item li a {
+	background-color: #FBFBFB;
+}
+
+/*---Meta Widget---*/
+.widget_meta ul {
+	margin: 0;
+	list-style: none;
+}
+.widget_meta li {
+	padding-left: 15px;
+}
+
+/*--------------------------------------------------------------
+3 - Mobile Navigation
+----------------------------------------------------------------
+*/
+
+/* Mobile Navigation Button */
+.mobile-nav-link { 
+	padding: 10px 15px; 
+	color: #404040; 
+	background: #EDEDED;
+	text-decoration: none; 
+	margin: 3px; 
+	float: right;  }
+
+.mobile-nav-link:before {
+	content: '\f419';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 21.33333px/1 'Genericons';
+    vertical-align: middle;
+}
+
+
+#mobile-nav {
+	display: none;
+	background-color: #889900;
+}
+
+@media screen and (max-width: 570px) {
+
+	div.main-navigation-menu {
+		display: none;
+	}
+
+	#mobile-nav {
+		display: block;
+	}
+	
+	#mobile-nav-menu {
+		display: none;
+	}
+
+	#mobile-nav-menu.open {
+		display: block;
+	}
+
+	.mobile-nav-link { display: inline-block; }
+
+}
+
+ul.mobile-navigation-menu-list,
+ul.mobile-navigation-menu-list li a {
+	border-style: solid;
+	border-color: #ccc;
+}
+
+ul.mobile-navigation-menu-list { 
+	background-color: #F4F4F4;
+    box-shadow: 2px 2px 3px #444444;
+    display: block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 5px;
+    top: 40px;
+    width: 70%;
+    z-index: 500; 
+}
+
+ul.mobile-navigation-menu-list li { 
+	list-style: none; 
+	text-align: center;
+	width: 100%; 
+}
+
+ul.mobile-navigation-menu-list li a { 
+	display: block; 
+	padding: 20px 10px; 
+	border-bottom-width: 1px; 
+}
+
+ul.mobile-navigation-menu-list li a:hover { 
+	background-color: #ccc; 
+	color: #fff; 
+}
+
+
+/*--------------------------------------------------------------
+4 - Back to Top Link
+----------------------------------------------------------------
+*/
+
+.os-back-to-top-link { 
+	display: block;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	text-decoration: none; 	
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	border-bottom-width: 1px; 	
+ }
+
+.os-back-to-top-link:before {
+	content: '\f435';
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    font: normal 21.33333px/1 'Genericons';
+    vertical-align: middle;
+}
+

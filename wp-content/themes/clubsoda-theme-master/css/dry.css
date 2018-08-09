@@ -1,0 +1,468 @@
+/**
+* Site specific DRY styles
+* Version 1.0
+*/
+
+/*--------------------------------------------------------------
+1 - Font Family
+----------------------------------------------------------------
+*/
+
+#FONT-FAMILY-MAIN,
+body,
+#canvas,
+.entry-header,
+.entry-header h1,
+h4,h5,h6,
+.site-info,
+.font-family-main {
+ 	font-family: 'Open Sans', sans-serif;
+}
+
+#HEADING-FONT,
+h1,h2,h3,
+.page-title,
+.widget-title,
+.heading-font {
+	font-family: 'Roboto Slab', serif;
+}
+
+#masthead p {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*--------------------------------------------------------------
+2 - Font Weights & Styles
+----------------------------------------------------------------
+*/
+
+#HEADING-BOLD,
+h5,
+.entry-header,
+.entry-header h1,
+.heading-bold {
+	font-weight: bold;
+}
+#HEADING-ITALIC,
+h6,
+.heading-italic {
+	font-style: italic;
+}
+#TEXT-TRANSFORM-UPPERCASE,
+h1,h2,h3,h4,
+.clubsoda-nav a,
+.entry-header,
+.text-transform-uppercase {
+	text-transform: uppercase;
+}
+h4,h5 {
+	letter-spacing: 0.1em;
+}
+.site-info {
+	letter-spacing: 0.05em;
+}
+#TEXT-TRANSFORM-CAPITALIZE,
+.text-transform-capitalize {
+	text-transform: capitalize;
+}
+#TEXT-DECORATION-NONE,
+.entry-header a,
+ul.postscript-navigation-menu-list li a,
+ul.home-navigation-menu-list li a,
+.clubsoda-nav a,
+.text-decoration-none {
+	text-decoration: none;
+}
+#TEXT-DECORATION-UNDERLINE,
+.text-decoration-underline {
+	text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+3 - Special Elements
+----------------------------------------------------------------
+*/
+
+.widget-area,
+.wp-sticky,
+.os-post-date {
+	font-family: inherit;
+}
+
+/*--------------------------------------------------------------
+4 - Font Size
+----------------------------------------------------------------
+*/
+
+#FONT-SIZE-0,
+
+.font-size-0 {
+  font-size: 0.5rem; }
+#FONT-SIZE-1,
+.entry-footer .entry-meta,
+
+.font-size-1 {
+  font-size: 0.75rem; }
+#FONT-SIZE-2,
+h1.entry-title,
+.entry-header h1.page-title,
+
+.font-size-2 {
+  font-size: 1rem; }
+#FONT-SIZE-3,
+.site-description,
+
+.font-size-3 {
+  font-size: 1.0625rem; }
+#FONT-SIZE-4,
+h2.comments-title,
+h3.comment-reply-title,
+
+.font-size-4 {
+  font-size: 1.125rem; }
+#FONT-SIZE-5,
+
+.font-size-5 {
+  font-size: 1.1875rem; }
+#FONT-SIZE-6,
+.font-size-6 {
+  font-size: 1.25rem; }
+#FONT-SIZE-7,
+.font-size-7 {
+  font-size: 1.5rem; }
+#FONT-SIZE-8,
+h3,
+.font-size-8 {
+  font-size: 1.5625rem; }
+#FONT-SIZE-9,
+.page-header h1.page-title,
+h2,
+.font-size-9 {
+  font-size: 1.9375rem; }
+#FONT-SIZE-10,
+h1,
+.font-size-10 {
+  font-size: 2.5rem; }
+#FONT-SIZE-11,
+
+.font-size-11 {
+  font-size: 3rem; }
+}
+
+@media print, screen and (min-width: 40em) {
+
+}
+
+/*--------------------------------------------------------------
+5 - Text Colors
+----------------------------------------------------------------
+*/
+
+#TEXT-COLOR-BASE,
+body,
+button,
+input,
+select,
+textarea,
+.postscript-text,
+.text-color-base {
+	color: #404040;
+}
+
+#TEXT-COLOR-VARIATION,
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.text-color-variation {
+    color: #cacaca;
+}
+
+#TEXT-COLOR-EMPHASIS,
+blockquote,
+blockquote p,
+cite,
+.subheader,
+.text-color-emphasis {
+  color: #8a8a8a;
+}
+
+#TEXT-COLOR-HIGHLIGHT,
+abbr,
+code,
+kbd,
+.text-color-highlight {
+  color: #0a0a0a;
+}
+
+#TEXT-COLOR-LINK,
+a,
+.postscript-text a,
+.text-color-link {
+	color: #e30b5d;
+}
+
+#TEXT-COLOR-VISITED,
+a:visited,
+.postscript-text a:visited,
+.text-color-visited {
+	color: #e30b5d;
+}
+
+#TEXT-COLOR-HOVER,
+a:hover,
+a:focus,
+a:active,
+.postscript-text a:hover,
+.postscript-text a:focus,
+.postscript-text a:active,
+.text-color-hover {
+  color: #456064;
+}
+
+#TEXT-COLOR-BASE-ALT,
+.site-info,
+.clubsoda-nav  a,
+.text-color-base-alt {
+	color: #E9E8E7;
+}
+
+#TEXT-COLOR-GOLD,
+/*.main-navigation-menu-list li.current-menu-item a,
+.main-navigation-menu-list li.current-menu-item a:visited,
+*/
+.site-info a,
+.site-info a:visited,
+.text-color-gold {
+	color: #fab939;
+}
+
+#TEXT-COLOR-WHITE,
+.entry-header,
+.entry-header a,
+.entry-header a:visited,
+.entry-header a:hover,
+.entry-header a:focus,
+.entry-header a:active,
+.entry-footer,
+.entry-footer a,
+.entry-footer a:visited,
+.archive .page-header,
+.blog .page-header,
+.home-navigation-menu-list a,
+.home-navigation-menu-list a:visited,
+.home-navigation-menu-list li.current-menu-item a,
+.home-navigation-menu-list li.current-menu-item a:visited,
+.postscript-navigation-menu-list a,
+.postscript-navigation-menu-list a:visited,
+.postscript-navigation-menu-list li.current-menu-item a,
+.postscript-navigation-menu-list li.current-menu-item a:visited,
+a.button:visited,
+.text-color-white {
+	color: #FBFBFB;
+}
+
+#TEXT-COLOR-RASPBERRY,
+.site-info a:hover,
+.site-info a:focus,
+.site-info a:active,
+.entry-header a:hover,
+.entry-header a:focus,
+.entry-header a:active,
+.entry-footer a:hover,
+.entry-footer a:focus,
+.entry-footer a:active,
+.home-navigation-menu-list a:hover,
+.home-navigation-menu-list a:focus,
+.home-navigation-menu-list a:active,
+.home-navigation-menu-list li.current-menu-item a:hover,
+.home-navigation-menu-list li.current-menu-item a:focus,
+.home-navigation-menu-list li.current-menu-item a:active,
+.postscript-navigation-menu-list a:hover,
+.postscript-navigation-menu-list a:focus,
+.postscript-navigation-menu-list a:active,
+.postscript-navigation-menu-list li.current-menu-item a:hover,
+.postscript-navigation-menu-list li.current-menu-item a:focus,
+.postscript-navigation-menu-list li.current-menu-item a:active,
+.text-color-raspberry {
+	color: #e30b5d;
+}
+
+#TEXT-COLOR-GREEN,
+.text-color-green {
+	color: #86A2A5;
+}
+
+/*--------------------------------------------------------------
+6 - Background Colors
+----------------------------------------------------------------
+*/
+
+.background-canvas,
+.background-page,
+pre,
+input,
+textarea,
+select {
+	background: #E9E8E7;
+}
+
+#BACKGROUND-GREEN,
+#col-1,
+.entry-header,
+.entry-footer,
+#col-3-c .widget,
+.button,
+.clubsoda-nav .current-menu-item a, .clubsoda-nav .current_page_item a, .clubsoda-nav a:hover,
+.postscript-navigation-menu .menu .active>a,
+.background-green {
+	background-color: #86a2a5;
+}
+
+#BACKGROUND-DARK-GREEN,
+#col-2,
+.archive .page-header,
+.blog .page-header,
+#postscript,
+.sticky .entry-header,
+.sticky .entry-footer,
+.clubsoda-nav .menu-item,
+.clubsoda-nav .menu .current-menu-parent.active>a,
+.button:focus,
+.button:hover,
+.background-dark-green {
+	background-color: #456064;
+}
+
+#BACKGROUND-LIGHT-GREEN,
+.type-clubsoda_resources .entry-header,
+.type-clubsoda_resources .entry-footer,
+.background-light-green {
+	background-color: #becdcf;
+}
+
+#BACKGROUND-GOLD,
+.type-clubsoda_offers .entry-header,
+.type-clubsoda_offers .entry-footer,
+.background-gold {
+	background-color: #fab939;
+}
+
+#BACKGROUND-RASPBERRY,
+.type-clubsoda_events .entry-header,
+.type-clubsoda_events .entry-footer,
+.clubsoda-nav .current-menu-item a, .clubsoda-nav .current_page_item a, .clubsoda-nav a:hover,
+.pagination .current,
+.background-raspberry {
+	background-color: #e30b5d;
+}
+
+#BACKGROUND-WHITE,
+.hentry,
+.post-navigation,
+.paging-navigation,
+.comments-area,
+.comment-respond,
+.widget,
+.background-white {
+	background-color: #FBFBFB;
+}
+
+.background-colophon {
+	background-color: #456064; /* change to a grey? */
+}
+
+#BACKGROUND-HIGHLIGHT-DARK,
+.background-highlight-dark {
+  	background-color: #666666;
+}
+
+#BACKGROUND-HIGHLIGHT-LIGHT,
+.background-highlight-light  {
+	background: #CCCCCC;
+}
+
+#BACKGROUND-HIGHLIGHT-ALT,
+mark,
+ins,
+#background-highlight-alt {
+  	background-color: #FFFF00;
+}
+
+/*--------------------------------------------------------------
+7 - Lines & Borders
+----------------------------------------------------------------
+*/
+
+hr {
+	background-color: #ccc;
+}
+
+#BASE-BORDER-COLOR,
+#canvas,
+form,
+fieldset,
+input,
+textarea,
+select,
+.base-border-color {
+	border-color: #ccc;
+}
+
+#ALT-BORDER-COLOR,
+input:focus,
+textarea:focus,
+select:focus,
+.alt-border-color {
+	border-color: #aaa;
+}
+
+/*--------------------------------------------------------------
+8 - Margins
+----------------------------------------------------------------
+*/
+
+#col-2, .archive .page-header, .blog .page-header, .hentry,
+.site-content .site-navigation {
+  margin-bottom: 1.25rem;
+}
+h1.entry-title,
+h1.page-title {
+  margin-bottom: 0;
+}
+#PADDING-RIGHT, .widget, .post-navigation, .paging-navigation, .archive .page-header .page-title, .blog .page-header .page-title, .taxonomy-description, .comments-area, .padding-right {
+    padding-right: .9375rem;
+}
+#PADDING-LEFT, .widget, .post-navigation, .paging-navigation, .archive .page-header .page-title, .blog .page-header .page-title, .taxonomy-description, .comments-area, .padding-left {
+    padding-left: .9375rem;
+}
+#PADDING-H-h-h, .entry-header, .page-header .page-title, .widget, .post-navigation, .paging-navigation, .padding-h-h-h {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+#MARGIN-H-1-0, .entry-content, .entry-summary, .entry-footer, .margin-h-1-0, .comments-area, #postscript, #colophon {
+  padding-top: 0.75rem;
+  padding-bottom: 0;
+}
+#MARGIN-H-0-1, .taxonomy-description, .margin-h-0-1 {
+  padding-top: 0;
+  padding-bottom: 0.75rem;
+}
+
+/* =Content Navigation
+----------------------------------------------- */
+
+.site-content .site-navigation {
+	overflow: hidden;
+}
+.site-content .nav-previous {
+	float: left;
+	width: 50%;
+}
+.site-content .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}

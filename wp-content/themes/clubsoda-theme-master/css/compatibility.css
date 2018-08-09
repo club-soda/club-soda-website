@@ -1,0 +1,99 @@
+/* COMPATABILITY STYLESHEET FOR CHILD THEME
+----------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1 - WP-PageNavi plugin
+2 - Yoast Breadcrumbs styles
+3 - WooThemes Testimonials Widget
+
+----------------------------------------------------------------
+*/
+
+/*--------------------------------------------------------------
+1 - WP-PageNavi plugin
+----------------------------------------------------------------
+
+Default style for WP-PageNavi plugin
+http://wordpress.org/extend/plugins/wp-pagenavi/
+*/
+
+.wp-pagenavi {
+	clear: both;
+}
+
+.wp-pagenavi a, .wp-pagenavi span {
+	text-decoration: none;
+	padding: 3px 5px;
+	margin: 2px;
+}
+
+.wp-pagenavi a:hover {
+
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+2 - Yoast Breadcrumbs styles
+----------------------------------------------------------------
+*/
+
+.breadcrumbs {
+	
+}
+
+.breadcrumbs a {
+
+}
+
+.breadcrumbs .breadcrumb_last {
+
+}
+
+/*--------------------------------------------------------------
+3 - WooThemes Testimonials Widget
+----------------------------------------------------------------
+*/
+
+.widget_woothemes_testimonials {}
+
+.testimonials {}
+
+.testimonials-list {}
+
+.testimonials .quote {}
+
+.testimonials .quote blockquote {
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+.testimonials .quote blockquote:before {
+	content: "\201C";
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+.testimonials .quote a.avatar-link {
+	float: left;
+}
+.testimonials .quote a.avatar-link img {}
+
+.testimonials .quote .author {
+	float: right;
+}
+
+.testimonials .quote .author .title,
+.testimonials .quote .author .url {
+	display: block;
+}
+
+.testimonials .fix {
+	/* Add clear fix */
+}
