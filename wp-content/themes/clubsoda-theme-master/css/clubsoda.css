@@ -1,6 +1,8 @@
 
 
-
+.product .post-entry .entry-header .meta-pubdate  {
+	display: none !important;
+}
 
 
 

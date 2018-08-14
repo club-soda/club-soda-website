@@ -9,10 +9,10 @@ Stylesheet: Main Stylesheet
 
 @import url("oystershell.css");
 @import url("dry.css");
-/* @import url("clubsoda.css"); */
+@import url("clubsoda.css"); 
 
-/* @import url("css/navigation.css");
-@import url("css/compatibility.css"); */
+@import url("css/navigation.css");
+@import url("css/compatibility.css"); 
 @import url("woocommerce.css");
 
 

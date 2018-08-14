@@ -32,10 +32,13 @@ if ( ! function_exists( 'oystershell_display_navmenu_primary' ) ):
 	}
 endif; // oystershell_display_navmenu_primary
 
+
+if ( ! function_exists( 'clubsoda_main_navigation' ) ):
 /**
  * Insert the main navigation menu
  */
 function clubsoda_main_navigation() {
+
 
 	echo '<div class="clubsoda-nav">';
 
@@ -50,6 +53,8 @@ function clubsoda_main_navigation() {
 
 	echo '</div>';
 }
+
+endif;
 
 /**
  * Insert the search box
