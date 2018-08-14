@@ -658,7 +658,7 @@ require_once( ABSPATH . 'wp-admin/admin-header.php' );
 			</table>
 			<p class="button-controls wp-clearfix"><?php submit_button( __( 'Save Changes' ), 'primary left', 'nav-menu-locations', false ); ?></p>
 			<?php wp_nonce_field( 'save-menu-locations' ); ?>
-			<input type="hidden" name="menu" id="nav-menu-meta-object-id" value="<?php echo esc_attr( $nav_menu_selected_id ); ?>" />
+			<input name="menu" id="nav-menu-meta-object-id" value="<?php echo esc_attr( $nav_menu_selected_id ); ?>" />
 		</form>
 	</div><!-- #menu-locations-wrap -->
 	<?php
