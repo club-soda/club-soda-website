@@ -4,3 +4,6 @@
 [submodule "wp-content/plugins/oystershell-core"]
 	path = wp-content/plugins/oystershell-core
 	url = https://github.com/grit-and-oyster/oystershell-core.git
+[submodule "wp-content-plugins/oystershell-core"]
+	path = wp-content-plugins/oystershell-core
+	url = https://github.com/grit-and-oyster/oystershell-core.git
