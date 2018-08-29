@@ -38,4 +38,12 @@ define('DB_HOST', 'localhost:8889')
 
 Run wp-admin/install.php and follow the instructions to install WordPress.
 
-Done!
+## Installing Plugins
+
+To get The Club Soda Website up and running you will require the following plugins
+
+*It is vital you instal the plugins in the correct order
+
+1. [Oystershell-Core](https://github.com/grit-and-oyster/oystershell-core) 
+2. [Clubsoda-site](https://github.com/grit-and-oyster/clubsoda-site)
+3. [Posts To Posts Plugin](https://wordpress.org/plugins/posts-to-posts/)
