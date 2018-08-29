@@ -42,7 +42,7 @@ Run wp-admin/install.php and follow the instructions to install WordPress.
 
 To get The Club Soda Website up and running you will require the following plugins
 
-*It is vital you instal the plugins in the correct order
+*It is vital you instal the plugins in the correct order*
 
 1. [Oystershell-Core](https://github.com/grit-and-oyster/oystershell-core) 
 2. [Clubsoda-site](https://github.com/grit-and-oyster/clubsoda-site)
