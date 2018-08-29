@@ -1,12 +1,12 @@
 # Club Soda Website
 
-##Software and Versions
+## Software and Versions
 - Wordpress 4.9.8
 
 ## System Dependancies
 - PHP 5.3.0
 
-##Environment Variables
+## Environment Variables
 None yet
 
 ## Running This Project For The First Time
@@ -17,7 +17,7 @@ It also comes with phpMyAdmin, for visual management of local databases.
 
 Download the free version of MAMP, install it, open it and click 'Start Servers' to start Apache and MySQL.
 
-__Don't forget to update MAMP's server directory (Preferences > Document Root) to be the directory that contains your project folders.__
+*Don't forget to update MAMP's server directory (Preferences > Document Root) to be the directory that contains your project folders.*
 
 You can then visit localhost:8888 in your browser to see a list of your project folders. Select skeleton-wordpress to view this site.
 
